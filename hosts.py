@@ -2,7 +2,7 @@ import urllib
 import os
 import sys
 
-url = 'https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts'
+url = 'https://raw.githubusercontent.com/racaljk/hosts/master/hosts'
 
 
 def main():
