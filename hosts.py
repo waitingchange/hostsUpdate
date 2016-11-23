@@ -22,7 +22,9 @@ def main():
 	file_object.close( )
 
 	os.system('sudo mv /tmp/hosts /etc/hosts')
+	os.system('sudo dscacheutil -flushcache')
 	os.system('sudo killall -HUP mDNSResponder')
+
 	print 'complete '
 
 if __name__ == '__main__':
